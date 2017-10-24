@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name"><b>Tic&#9734;Tac&#9734;Toe</b></string>
+
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="game_header"><b>Wise Guy</b>\nTic-Tac-Toe</string>
+    <string name="landscape_game_header"><b>Wise Guy Tic-Tac-Toe</b></string>
+    <string name="vs">vs.</string>
+    <string name="game_level">Game Level</string>
+</resources>

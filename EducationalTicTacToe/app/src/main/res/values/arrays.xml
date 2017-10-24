@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="spinner_you">
+        <item>You</item>
+    </string-array>
+
+    <string-array name="spinner_items">
+        <item>Albert Einstein</item>
+        <item>Thomas Edison</item>
+        <item>Thomas Jefferson</item>
+        <item>Abraham Lincoln</item>
+    </string-array>
+
+    <string-array name="game_level">
+        <item>Novice</item>
+        <item>Medium</item>
+        <item>Expert</item>
+        <item>You play\nboth sides</item>
+    </string-array>
+
+</resources>
