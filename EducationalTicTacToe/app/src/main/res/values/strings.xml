@@ -7,4 +7,8 @@
     <string name="landscape_game_header"><b>Wise Guy Tic-Tac-Toe</b></string>
     <string name="vs">vs.</string>
     <string name="game_level">Game Level</string>
+
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
 </resources>
