@@ -16,6 +16,7 @@ import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.WindowManager;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
@@ -120,8 +121,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-        getSupportActionBar().hide();
+        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
 
         screenPixelWidth = getResources().getDisplayMetrics().widthPixels;
         screenPixelHeight = getResources().getDisplayMetrics().heightPixels;
@@ -217,8 +217,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         startGameButton = (Button) findViewById(R.id.startGameButton);
         startGameButton.setOnClickListener(StartGameButtonListener);
 
-        exitImageButton = (ImageButton) findViewById(R.id.exitImageButton);
-        exitImageButton.setOnClickListener(ExitImageButtonHandler);
+//        exitImageButton = (ImageButton) findViewById(R.id.exitImageButton);
+//        exitImageButton.setOnClickListener(ExitImageButtonHandler);
 
         menuImageButton = (ImageButton) findViewById(R.id.menuImageButton);
         menuImageButton.setOnClickListener(MenuImageButtonHandler);
@@ -362,12 +362,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         }
     }
 
-    View.OnClickListener ExitImageButtonHandler = new View.OnClickListener() {
-        @Override
-        public void onClick(View v) {
-            finishAffinity();
-        }
-    };
+//    View.OnClickListener ExitImageButtonHandler = new View.OnClickListener() {
+//        @Override
+//        public void onClick(View v) {
+//            finishAffinity();
+//        }
+//    };
 
     View.OnClickListener MenuImageButtonHandler = new View.OnClickListener() {
         @Override
